@@ -1,0 +1,20 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.game {
+    display: grid;
+    grid-template-columns: repeat(3, 0fr);
+}
+
+.tictactoebutton {
+    width: 100px;
+    height: 100px;
+    padding: 1rem;
+    background-color: transparent;
+    border: 1px solid black;
+    cursor: pointer;
+}
